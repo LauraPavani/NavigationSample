@@ -35,5 +35,5 @@ fun ThirdScreen(navigateToFirstScreen: ()-> Unit) {
 @Preview(showBackground = true)
 @Composable
 fun ThirdPreview(){
-    SecondScreen({})
+    ThirdScreen({})
 }
